@@ -67,7 +67,7 @@ After two times of model prediction and difference, we get the CATE value to be 
 
 
 
-Solutions of task3 and task4 are based on our [previous work published in KDD'21](https://doi.org/10.1145/3447548.3467237).
+## Solutions of task3 and task4 are based on our [previous work published in KDD'21](https://doi.org/10.1145/3447548.3467237).
 ```
 @inproceedings{10.1145/3447548.3467237,
 author = {Shen, Shuanghong and Liu, Qi and Chen, Enhong and Huang, Zhenya and Huang, Wei and Yin, Yu and Su, Yu and Wang, Shijin},
