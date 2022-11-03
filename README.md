@@ -18,25 +18,9 @@ or other GPU with more than 20G memory
 
 First, put Task_1_dataset and Task_3_dataset in same file path with Task_3_dataset and Task_4_dataset.
 
-Solutions of task3 and task4 are based on our [previous work published in KDD'21](https://doi.org/10.1145/3447548.3467237).
-```
-@inproceedings{10.1145/3447548.3467237,
-author = {Shen, Shuanghong and Liu, Qi and Chen, Enhong and Huang, Zhenya and Huang, Wei and Yin, Yu and Su, Yu and Wang, Shijin},
-title = {Learning Process-Consistent Knowledge Tracing},
-year = {2021},
-isbn = {9781450383325},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3447548.3467237},
-doi = {10.1145/3447548.3467237},
-pages = {1452–1460},
-numpages = {9},
-location = {Virtual Event, Singapore},
-series = {KDD '21}
-}
-```
-## For task1: 
-**To repeat our results:**
+
+## For task1, we used a supervised method based on the label in local dev dataset: 
+**To save time, you can directly repeat our results:**
 
 first, go to task1/:
 
@@ -71,7 +55,27 @@ then,
 ## For task2: 
 
 
-## For task3: 
+
+
+Solutions of task3 and task4 are based on our [previous work published in KDD'21](https://doi.org/10.1145/3447548.3467237).
+```
+@inproceedings{10.1145/3447548.3467237,
+author = {Shen, Shuanghong and Liu, Qi and Chen, Enhong and Huang, Zhenya and Huang, Wei and Yin, Yu and Su, Yu and Wang, Shijin},
+title = {Learning Process-Consistent Knowledge Tracing},
+year = {2021},
+isbn = {9781450383325},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3447548.3467237},
+doi = {10.1145/3447548.3467237},
+pages = {1452–1460},
+numpages = {9},
+location = {Virtual Event, Singapore},
+series = {KDD '21}
+}
+```
+
+## For task3:
 
 first, go to task3/:
 
