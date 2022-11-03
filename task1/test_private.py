@@ -77,7 +77,7 @@ def test():
         array_data = np.array(all_data)
         
         for iii in range(0, 40000, 400):
-            print(iii)
+            #print(iii)
             temp = array_data[iii: iii+400]
 
             temp2 = []
