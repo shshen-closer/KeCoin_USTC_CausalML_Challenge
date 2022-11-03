@@ -10,7 +10,7 @@
 - pandas
 - sklearn
 
-## Usage
+## Before
 
 First, put Task_1_dataset and Task_3_dataset in same file path with Task_3_dataset and Task_4_dataset.
 
@@ -31,12 +31,19 @@ location = {Virtual Event, Singapore},
 series = {KDD '21}
 }
 ```
+## For task1: 
+first, go to task1/:
+
+## For task2: 
+
 
 ## For task3: 
 first, go to task3/:
+
 `cd task3`
 
 then, preparing the data:
+
 `python data_pre.py`
 
 
@@ -45,18 +52,22 @@ then, preparing the data:
 `python data_3.py 200`
 
 then, training the model and making predictions:
+
 `python train_lpkt.py 0`
 
 `python test4task3.py {model_name}`
 
 finally, prepare submission:
+
 `python processing.py`
 
 ## For task4: 
 first, go to task4/:
+
 `cd task4`
 
 then, preparing the data:
+
 `python data_pre.py`
 
 
@@ -65,6 +76,7 @@ then, preparing the data:
 `python data_4.py 200`
 
 then, training the model and making predictions:
+
 `python train_lpkt.py 0`
 
 `python test4task4.py {model_name}`
