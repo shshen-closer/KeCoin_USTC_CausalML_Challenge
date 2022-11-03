@@ -26,6 +26,8 @@ first, go to task1/:
 
 `cd task1`
 
+`mkdir results`
+
 then, 
 
 `python test_all_private.py runs_9_3`
