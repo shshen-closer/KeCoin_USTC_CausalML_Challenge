@@ -88,7 +88,7 @@ jiedian_c = []
 
 outputs = []
 for i in range(len(constructs)):
-    print(i)
+    #print(i)
     item = []
     for j in range(len(constructs)):
         if i == j:
@@ -141,8 +141,8 @@ for i in range(len(constructs)):
             print('error_t')
         if counts_c == 0:
             print('error_c')
-print(jiedian)
-print(jiedian_c)
+#print(jiedian)
+#print(jiedian_c)
 print(len(jiedian))
 print(len(jiedian_c))
 print(len(treat))
