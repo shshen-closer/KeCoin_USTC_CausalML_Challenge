@@ -104,7 +104,7 @@ then, training the model and making predictions:
 
 `python train_lpkt.py 0`
 
-after training, the model file will be stored in runs/, you can find model_name in there.
+after training, the model file will be stored in runs/, you can find model_name (e.g., 1667485939) in there.
 
 `python test4task3.py {model_name}`
 
@@ -131,7 +131,7 @@ then, training the model and making predictions:
 
 `python train_lpkt.py 0`
 
-after training, the model file will be stored in runs/, you can find model_name in there.
+after training, the model file will be stored in runs/, you can find model_name (e.g., 1667485939) in there.
 
 `python test4task4.py {model_name}`
 
