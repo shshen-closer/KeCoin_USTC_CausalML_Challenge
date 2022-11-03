@@ -9,6 +9,10 @@
 - utils
 - pandas
 - sklearn
+- 
+## Hardware:
+NVIDIA RTX 3090 * 1
+or other GPU with more than 20G memory
 
 ## Before
 
@@ -109,4 +113,14 @@ then, training the model and making predictions:
 
 `python train_lpkt.py 0`
 
+after training, the model file will be stored in runs/, 1665554163 was used for our submission, you can also used the new trained model.
+
+**To repeat our results:**
+
+`python test4task4.py 1665554163`
+
+**To train from start:**
+
 `python test4task4.py {model_name}`
+
+**The output cate_estimate.npy is our result. Noting it is hard to get totally same results due to we choose different records for testing every time, but the deviation is acceptable**
