@@ -57,7 +57,7 @@ then,
 
 
 
-## For task2: 
+## For task2, just run the task2_private.ipynb file: 
 
 Our main idea is to code constructs to represent the differences among them. At the same time, in terms of specific operations, we will intercept a sequence with a length of 100 from the task1 dataset, and train the model by predicting the state of the next step. Since the definition of CATE is to calculate the difference between the two steps after applying different constructs, we use the trained model to predict twice consecutively, and then calculate the difference of the results to obtain our predicted CATE value.
 
