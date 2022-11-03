@@ -3,7 +3,7 @@
 ## Dependencies:
 
 - python >= 3.8  (or >= 3.8.0 )
-- tesorflow-gpu == 2.5.0  (or >= 2.5.0 ) 
+- tensorflow-gpu == 2.5.0  (or >= 2.5.0 ) 
 - torch==1.8.0 (or >= 1.8.0 )
 - numpy
 - tqdm
@@ -17,7 +17,7 @@ or other GPU with more than 20G memory
 
 ## Before
 
-First, put Task_1_dataset and Task_3_dataset in same file path with Task_3_dataset and Task_4_dataset.
+First, put Task_1_dataset, Task_2_dataset and Task_3_dataset in same file path with Task_4_dataset.
 
 
 ## For task1, we used a supervised method based on the label in local dev dataset: 
