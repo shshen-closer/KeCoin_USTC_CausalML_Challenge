@@ -31,7 +31,8 @@ location = {Virtual Event, Singapore},
 series = {KDD '21}
 }
 ```
-Specifically, for task3: 
+
+## For task3: 
 first, go to task3/:
 `cd task3`
 
@@ -50,3 +51,20 @@ then, training the model and making predictions:
 
 finally, prepare submission:
 `python processing.py`
+
+## For task4: 
+first, go to task4/:
+`cd task4`
+
+then, preparing the data:
+`python data_pre.py`
+
+
+`python data_save.py 200`
+
+`python data_4.py 200`
+
+then, training the model and making predictions:
+`python train_lpkt.py 0`
+
+`python test4task4.py {model_name}`
