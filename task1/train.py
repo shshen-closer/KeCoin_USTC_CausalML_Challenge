@@ -111,7 +111,7 @@ def train():
     leng = 400
     train_students=[]
     for idx in idxs:
-        print(idx)
+       # print(idx)
         data_index = str(idx)
         all_data =  pd.read_csv('../Task_1_dataset/Task_1_data_local_dev_csv/dataset_' + data_index +'/train.csv', encoding = "ISO-8859-1", low_memory=False,header=None)
         truth = np.load('../Task_1_dataset/Task_1_data_local_dev_csv/adj_matrix.npy', allow_pickle=True)
