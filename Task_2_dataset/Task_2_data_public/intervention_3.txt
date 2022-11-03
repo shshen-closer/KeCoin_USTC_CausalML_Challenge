@@ -1,0 +1,20 @@
+CATE number: 0
+Conditioning_length:260, Bot intervention: 20, Bot reference: 35, Effect topic: 20, Effect time: 2
+CATE number: 1
+Conditioning_length:360, Bot intervention: 35, Bot reference: 45, Effect topic: 38, Effect time: 2
+CATE number: 2
+Conditioning_length:260, Bot intervention: 25, Bot reference: 40, Effect topic: 12, Effect time: 2
+CATE number: 3
+Conditioning_length:200, Bot intervention: 10, Bot reference: 35, Effect topic: 10, Effect time: 2
+CATE number: 4
+Conditioning_length:40, Bot intervention: 10, Bot reference: 40, Effect topic: 40, Effect time: 2
+CATE number: 5
+Conditioning_length:260, Bot intervention: 15, Bot reference: 30, Effect topic: 11, Effect time: 2
+CATE number: 6
+Conditioning_length:100, Bot intervention: 30, Bot reference: 40, Effect topic: 16, Effect time: 2
+CATE number: 7
+Conditioning_length:160, Bot intervention: 20, Bot reference: 40, Effect topic: 20, Effect time: 2
+CATE number: 8
+Conditioning_length:180, Bot intervention: 15, Bot reference: 35, Effect topic: 15, Effect time: 2
+CATE number: 9
+Conditioning_length:80, Bot intervention: 20, Bot reference: 40, Effect topic: 40, Effect time: 2
