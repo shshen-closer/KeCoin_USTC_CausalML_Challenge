@@ -2,8 +2,9 @@
 
 ## Dependencies:
 
-- python >= 3.7
-- tesorflow-gpu >= 2.0 
+- python >= 3.8  (or >= 3.8.0 )
+- tesorflow-gpu == 2.5.0  (or >= 2.5.0 ) 
+- torch==1.8.0 (or >= 1.8.0 )
 - numpy
 - tqdm
 - utils
