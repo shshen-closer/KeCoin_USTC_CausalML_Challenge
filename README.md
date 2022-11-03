@@ -89,11 +89,21 @@ then, training the model and making predictions:
 
 `python train_lpkt.py 0`
 
+after training, the model file will be stored in runs/, 1665554163 was used for our submission, you can also used the new trained model.
+
+**To repeat our results:**
+
+`python test4task3.py 1665554163`
+
+**To train from start:**
+
 `python test4task3.py {model_name}`
 
 finally, prepare submission:
 
 `python processing.py`
+
+**The output adj_matirx.npy is our result. Noting it is hard to get totally same results due to we choose different records for testing every time, but the deviation is acceptable**
 
 ## For task4: 
 first, go to task4/:
