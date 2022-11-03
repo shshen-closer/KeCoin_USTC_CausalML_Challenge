@@ -32,7 +32,37 @@ series = {KDD '21}
 }
 ```
 ## For task1: 
+**To repeat our results:**
+
 first, go to task1/:
+
+`cd task1`
+
+then, 
+
+`python test_all_private.py runs_9_3`
+
+`python meaning.py`
+
+**To train from start:**
+
+first, go to task1/:
+
+`cd task1`
+
+then, 
+
+`python train_all.py`
+
+then, 
+
+`python test_all_private.py runs`
+
+`python meaning.py`
+
+**The output adj_matirx.npy is our result**
+
+
 
 ## For task2: 
 
