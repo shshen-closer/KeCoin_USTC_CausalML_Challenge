@@ -18,7 +18,7 @@ or other GPU with more than 20G memory
 
 First, put Task_1_dataset and Task_3_dataset in same file path with Task_3_dataset and Task_4_dataset.
 
-Solutions of task3 and task4 are based on our previous work published in KDD'21
+Solutions of task3 and task4 are based on our [previous work published in KDD'21](https://doi.org/10.1145/3447548.3467237).
 ```
 @inproceedings{10.1145/3447548.3467237,
 author = {Shen, Shuanghong and Liu, Qi and Chen, Enhong and Huang, Zhenya and Huang, Wei and Yin, Yu and Su, Yu and Wang, Shijin},
