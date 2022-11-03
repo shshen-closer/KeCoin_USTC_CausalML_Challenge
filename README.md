@@ -9,7 +9,7 @@
 - utils
 - pandas
 - sklearn
-- 
+- any other necessary package
 ## Hardware:
 NVIDIA RTX 3090 * 1
 or other GPU with more than 20G memory
@@ -31,6 +31,8 @@ then,
 `python test_all_private.py runs_9_3`
 
 `python meaning.py`
+
+**The output adj_matirx.npy is our result**
 
 **To train from start:**
 
@@ -93,7 +95,7 @@ then, training the model and making predictions:
 
 `python train_lpkt.py 0`
 
-after training, the model file will be stored in runs/, with similar name as 1665554163 
+after training, the model file will be stored in runs/, you can find model_name in there.
 
 `python test4task3.py {model_name}`
 
