@@ -72,6 +72,7 @@ then,
 
 
 ## For task3: 
+
 first, go to task3/:
 
 `cd task3`
@@ -79,7 +80,6 @@ first, go to task3/:
 then, preparing the data:
 
 `python data_pre.py`
-
 
 `python data_save.py 200`
 
@@ -89,13 +89,7 @@ then, training the model and making predictions:
 
 `python train_lpkt.py 0`
 
-after training, the model file will be stored in runs/, 1665554163 was used for our submission, you can also used the new trained model.
-
-**To repeat our results:**
-
-`python test4task3.py 1665554163`
-
-**To train from start:**
+after training, the model file will be stored in runs/, with similar name as 1665554163 
 
 `python test4task3.py {model_name}`
 
@@ -103,7 +97,7 @@ finally, prepare submission:
 
 `python processing.py`
 
-**The output adj_matirx.npy is our result. Noting it is hard to get totally same results due to we choose different records for testing every time, but the deviation is acceptable**
+**The output adj_matirx.npy is our result. Noting it is hard to get totally same results due to we have different seeds for training and different records for testing every time, but the deviation should be acceptable**
 
 ## For task4: 
 first, go to task4/:
@@ -114,7 +108,6 @@ then, preparing the data:
 
 `python data_pre.py`
 
-
 `python data_save.py 200`
 
 `python data_4.py 200`
@@ -123,14 +116,8 @@ then, training the model and making predictions:
 
 `python train_lpkt.py 0`
 
-after training, the model file will be stored in runs/, 1665554163 was used for our submission, you can also used the new trained model.
-
-**To repeat our results:**
-
-`python test4task4.py 1665554163`
-
-**To train from start:**
+after training, the model file will be stored in runs/, you can find model_name in there.
 
 `python test4task4.py {model_name}`
 
-**The output cate_estimate.npy is our result. Noting it is hard to get totally same results due to we choose different records for testing every time, but the deviation is acceptable**
+**The output cate_estimate.npy is our result. Noting it is hard to get totally same results due to we have different seeds for training and different records for testing every time, but the deviation should be acceptable**
