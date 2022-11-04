@@ -68,23 +68,9 @@ After two times of model prediction and difference, we get the CATE value to be 
 
 
 
-## Solutions of task3 and task4 are based on our [previous work published in KDD'21](https://doi.org/10.1145/3447548.3467237).
-```
-@inproceedings{10.1145/3447548.3467237,
-author = {Shen, Shuanghong and Liu, Qi and Chen, Enhong and Huang, Zhenya and Huang, Wei and Yin, Yu and Su, Yu and Wang, Shijin},
-title = {Learning Process-Consistent Knowledge Tracing},
-year = {2021},
-isbn = {9781450383325},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3447548.3467237},
-doi = {10.1145/3447548.3467237},
-pages = {1452–1460},
-numpages = {9},
-location = {Virtual Event, Singapore},
-series = {KDD '21}
-}
-```
+## Solutions of task3 and task4 are based on our previous work published in KDD'21 -- [Learning Process-Consistent Knowledge Tracing](https://doi.org/10.1145/3447548.3467237).
+
+The basic causal insight in this paper is that **any time spent for learning (e.g., answering questions or taking lessons) will increase knowledge, and any time passed without learning (forgetting along with time) will decrease knowledge**
 
 ## For task3:
 
@@ -106,13 +92,15 @@ then, training the model and making predictions:
 
 after training, the model file will be stored in runs/, you can find model_name (e.g., 1667485939) in there.
 
-`python test4task3.py {model_name}`
+`python test4task3.py {model_name}` 
+
+**It takes several hours to finish this, because we choose more than 1 million samples to output stable results as possible. **
 
 finally, prepare submission:
 
 `python processing.py`
 
-**The output adj_matirx.npy is our result. Noting it is hard to get totally same results due to we have different seeds for training and different records for testing every time, but the deviation should be acceptable**
+**The output adj_matirx.npy is our result. Noting that it is hard to get totally same results due to we have different seeds for training and choose different samples for testing every time, but the deviation should be acceptable**
 
 ## For task4: 
 first, go to task4/:
