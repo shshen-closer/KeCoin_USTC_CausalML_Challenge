@@ -98,7 +98,7 @@ after training, the model file will be stored in runs/, you can find model_name 
 
 `python test4task3.py {model_name}` 
 
-**It takes several hours to finish this, because we choose more than 1 million samples to output stable results as possible. **
+**It takes several hours to finish this, because we choose more than 1 million samples to output stable results as possible.**
 
 finally, prepare submission:
 
