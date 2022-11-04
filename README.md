@@ -110,6 +110,25 @@ finally, prepare submission:
 **The output adj_matirx.npy is our result. Noting that it is hard to keep the same results due to we have different seeds for training and choose different samples for testing every time, but the deviation should be acceptable**
 
 ## For task4: 
+
+**To reproduce our results:**
+
+first, go to task4/:
+
+`cd task4`
+
+then, preparing the data:
+
+`python data_4.py 200 data_used`
+
+finally:
+
+`python test4task4.py 1665554163`
+
+**The output cate_estimate.npy is our result.**
+
+**To train from start:**
+
 first, go to task4/:
 
 `cd task4`
@@ -122,7 +141,7 @@ then, preparing the data:
 
 `python data_save.py 200`
 
-`python data_4.py 200`
+`python data_4.py 200 data`
 
 then, training the model and making predictions:
 
