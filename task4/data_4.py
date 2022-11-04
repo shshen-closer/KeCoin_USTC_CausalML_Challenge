@@ -13,7 +13,7 @@ np.set_printoptions(suppress=True)
 kfold = KFold(n_splits=5, shuffle=False)
 
 length = int(sys.argv[1])
-data_path = int(sys.argv[2])
+data_path = sys.argv[2]
 
     
 student_data =  pd.read_csv('../Task_3_dataset/student_metadata.csv', encoding = "ISO-8859-1", low_memory=False)
