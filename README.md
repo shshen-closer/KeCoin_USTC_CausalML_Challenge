@@ -70,7 +70,7 @@ After two times of model prediction and difference, we get the CATE value to be 
 
 ## Solutions of task3 and task4 are based on our previous work published in KDD'21 -- [Learning Process-Consistent Knowledge Tracing](https://doi.org/10.1145/3447548.3467237).
 
-The basic causal insight in this paper is that **any time spent for learning (e.g., answering questions or taking lessons) will increase knowledge, and any time passed without learning (forgetting along with time) will decrease knowledge**
+The basic causal insight in this paper is that **any time spent for learning (e.g., answering questions or taking lessons) will increase knowledge, and any time passed without learning (forgetting along with time) will decrease knowledge**. For this competition, we do not use time information.
 
 ## For task3:
 
