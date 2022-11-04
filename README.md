@@ -63,8 +63,9 @@ Our main idea is to code constructs to represent the differences among them. At 
 
 The model input consists of three parts. The first part is the value of each construct in the sequence, with a total of 50 values. The second part is the ID of the imposed construct, and the last part is the value corresponding to the imposed construct.
 
-After two times of model prediction and difference, we get the CATE value to be predicted. We use three seeds to initialize our model, so we take the average value of the output of the three models as the final result.Each dataset trains a model and predicts 10 results, a total of five data sets, so the final output is a 5 * 10 matrix
+After two times of model prediction and difference, we get the CATE value to be predicted. We use three seeds to initialize our model, so we take the average value of the output of the three models as the final result.Each dataset trains a model and predicts 10 results, a total of five data sets, so the final output is a 5 * 10 matrix. 
 
+**We finally output the cate_estimate.npy file and place it in the same directory as the code**
 
 
 
