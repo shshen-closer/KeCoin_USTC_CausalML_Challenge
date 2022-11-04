@@ -82,6 +82,8 @@ first, go to task3/:
 
 `cd task3`
 
+`mkdir data`
+
 then, preparing the data:
 
 `python data_pre.py`
@@ -110,6 +112,8 @@ finally, prepare submission:
 first, go to task4/:
 
 `cd task4`
+
+`mkdir data`
 
 then, preparing the data:
 
