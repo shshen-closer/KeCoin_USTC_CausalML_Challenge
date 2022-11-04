@@ -13,6 +13,7 @@ np.set_printoptions(suppress=True)
 kfold = KFold(n_splits=5, shuffle=False)
 
 length = int(sys.argv[1])
+data_path = int(sys.argv[2])
 
     
 student_data =  pd.read_csv('../Task_3_dataset/student_metadata.csv', encoding = "ISO-8859-1", low_memory=False)
@@ -46,13 +47,13 @@ for one in np.array(all_data):
         c2q[ccc] = [one[1]]
 
 
-with open('data/user2id', 'r', encoding = 'utf-8') as fi:
+with open(data_path + '/user2id', 'r', encoding = 'utf-8') as fi:
     for line in fi:
         user2id = eval(line)
-with open('data/problem2id', 'r', encoding = 'utf-8') as fi:
+with open(data_path + '/problem2id', 'r', encoding = 'utf-8') as fi:
     for line in fi:
         problem2id = eval(line)
-with open('data/skill2id', 'r', encoding = 'utf-8') as fi:
+with open(data_path + '/skill2id', 'r', encoding = 'utf-8') as fi:
     for line in fi:
         skill2id = eval(line)
 
@@ -79,7 +80,7 @@ for item in tqdm(task4):
         temp1 = temp.iloc[idx]
         temp1 = temp1.sort_values(by=['timestamp']) 
         temp1 = np.array(temp1)
-        if len(temp1) < 500:
+        if len(temp1) < 400:
             continue
 
         candidate1 = c2q[int(item[2])]
