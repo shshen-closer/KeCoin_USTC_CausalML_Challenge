@@ -12,8 +12,8 @@
 - sklearn
 - any other necessary package
 ## Hardware:
-NVIDIA RTX 3090 * 1
-or other GPU with more than 20G memory
+A GPU with more than 20G memory, such as NVIDIA RTX 3090 we used
+
 
 ## Before
 
@@ -100,7 +100,7 @@ finally, prepare submission:
 
 `python processing.py`
 
-**The output adj_matirx.npy is our result. Noting that it is hard to get totally same results due to we have different seeds for training and choose different samples for testing every time, but the deviation should be acceptable**
+**The output adj_matirx.npy is our result. Noting that it is hard to keep the same results due to we have different seeds for training and choose different samples for testing every time, but the deviation should be acceptable**
 
 ## For task4: 
 first, go to task4/:
@@ -123,4 +123,4 @@ after training, the model file will be stored in runs/, you can find model_name 
 
 `python test4task4.py {model_name}`
 
-**The output cate_estimate.npy is our result. Noting it is hard to get totally same results due to we have different seeds for training and different records for testing every time, but the deviation should be acceptable**
+**The output cate_estimate.npy is our result. Noting that it is hard to keep the same results due to we have different seeds for training and different records for testing every time, but the deviation should be acceptable**
