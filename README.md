@@ -72,9 +72,9 @@ After two times of model prediction and difference, we get the CATE value to be 
 
 The basic causal insights in this paper and our solution are:
 
-**Any time spent for learning (e.g., answering questions or taking lessons) will increase knowledge, and any time passed without learning (forgetting along with time) will decrease knowledge.**
+**1. Any time spent for learning (e.g., answering questions or taking lessons) will increase knowledge, and any time passed without learning (forgetting along with time) will decrease knowledge.**
 
-**Connections exist in any two constructs, but with different intensity.**
+**2. Connections exist in any two constructs, but with different intensity.**
 
 ## For task3:
 
