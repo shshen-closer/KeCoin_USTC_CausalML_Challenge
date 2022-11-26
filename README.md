@@ -69,7 +69,7 @@ After two times of model prediction and difference, we get the CATE value to be 
 
 
 
-## Solutions of task3 and task4 are based on our previous work published in KDD'21 -- [Learning Process-Consistent Knowledge Tracing](https://doi.org/10.1145/3447548.3467237).
+## Solutions of task3 and task4 are based on our previous work published in KDD'21 -- [Learning Process-Consistent Knowledge Tracing](https://doi.org/10.1145/3447548.3467237) and its expanded journal version in IEEE TKDE -- [Monitoring Student Progress for Learning Process-Consistent Knowledge Tracing](https://ieeexplore.ieee.org/document/9950313).
 
 The basic causal insights in this paper and our solution are:
 
